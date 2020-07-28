@@ -1,0 +1,34 @@
+body {
+    width: 540px;
+    margin: auto;
+}
+
+.navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;;
+}
+  
+li a {
+    display: block;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu {
+    float:right;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
