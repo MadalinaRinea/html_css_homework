@@ -55,11 +55,11 @@ header p {
 }
   
 .tech {
-    width: 78%;
+    width: 63%;
     height: 170px;
     position: absolute;
     top: 350px;
-    left: 100px;
+    left: 230px;
     transform-origin: top left;
     transform: skew(25deg) rotate(-9deg);
     border-radius: 30px;
@@ -76,13 +76,13 @@ header p {
 }
   
 .text {
-    max-width: 29%;
+    max-width: 24%;
     background-color: #416aab;
     color: white;
     padding: 11px;
     position: absolute;
-    top: 200px;
-    left: 130px;
+    top: 190px;
+    left: 250px;
 }
   
 .text p:first-child {

@@ -1,3 +1,81 @@
+header {
+    width: 55%;
+    margin-top: 20px;
+    display: flex;
+}
+  
+header h2 {
+    font-size: 37px;
+    border-right: solid grey;
+    border-width: 2px;
+    padding-right: 15px;
+}
+  
+header p {
+    float: right;
+    padding: 30px 0px 0px 20px;
+}
+  
+.contact {
+    width: 16%;
+    text-align: right;
+    margin: -88px 0px 0px 744px;
+    font-size: 14px;
+}
+
+.tech {
+    width: 63%;
+    height: 170px;
+    position: absolute;
+    top: 350px;
+    left: 230px;
+    transform-origin: top left;
+    transform: skew(25deg) rotate(-9deg);
+    border-radius: 30px;
+    background-color: #227d2e;
+}
+  
+.tech p {
+    font-size: 110px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    transform: skew(25deg);
+    margin: 23px;
+}
+  
+.text {
+    max-width: 24%;
+    background-color: #416aab;
+    color: white;
+    padding: 11px;
+    position: absolute;
+    top: 190px;
+    left: 250px;
+}
+  
+.text p:first-child {
+    border-bottom: white dashed;
+    border-bottom-width: thin;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+  
+.text p:last-child {
+    font-size: 14px;
+}
+  
+.todaysTech {
+    width: 320px;
+    background-color: #416aab;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 464px;
+    left: 670px;
+}
+  
+
 .card {
     padding: 5px;
     margin: 8px;
